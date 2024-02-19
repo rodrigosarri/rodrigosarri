@@ -5,6 +5,7 @@
 
 Sou desenvolvedor fullstack com experiência em tecnologias backend e frontend. Adoro criar aplicativos da web que sejam rápidos, responsivos e fáceis de usar.
 
+
 ## 🛠️ Principais Habilidades técnicas
 
 - Backend: PHP (Laravel), Node.js, Python
@@ -22,8 +23,6 @@ Então, temos o Node.js - ah, o Node.js! Imagine o jazz, mas em forma de código
 
 Por último, mas não menos importante, temos o Python 🐍 - a joia que descobri durante meu MBA em Big Data. Foi amor à primeira vista. Python me atraiu com seu charme discreto, sua versatilidade e capacidade de lidar com dados de uma maneira que me deixou encantado desde o primeiro "Hello, World!".
 
-Em resumo, transitar entre essas linguagens é a minha jornada de herói pessoal no mundo da programação, com cada uma trazendo seu próprio sabor especial à aventura. Vamos codificar e dar boas risadas pelo caminho! 😉
-
 Habilidade Técnica | Anos de experiência |
 ----- | ------------------- |
 PHP   | 15                 |
@@ -33,8 +32,6 @@ Python | 3                   |
 Acima, eu tentei desembrulhar um pouco da minha jornada pelas diversas linguagens de programação. Medir minha experiência em anos seria como tentar contar estrelas no céu 🌌 - possível, mas desafiador, dada a variedade e profundidade das minhas aventuras no código.
 
 Minha viagem pelo mundo da programação me levou por caminhos fascinantes: desde mergulhos em projetos legados, cheios de mistérios e sabedoria antiga, até a empolgação de contribuir para projetos novinhos em folha, onde cada linha de código se parece com o início de uma nova descoberta. Trabalhei integrando sistemas em manobras dignas de um piloto de acrobacias, e sim, houve momentos em que me senti "consertando o avião enquanto ele voava" (não recomendo, mas as vezes acontece).
-
-Cada linguagem de programação com a qual tive o prazer (e às vezes o desafio) de trabalhar me ensinou algo único, desde resolver quebra-cabeças em tempo real até antecipar e navegar por tempestades de bugs com a calma de um capitão experiente. Esta não é apenas uma lista de habilidades técnicas; é uma crônica de batalhas vencidas, lições aprendidas e, acima de tudo, de um amor inabalável pelo código.
 
 #### FRAMEWORKS BACKEND
 
@@ -67,6 +64,53 @@ Bootstrap   | 5                 |
 Jquery   | 5                 |
 Material | 4                  |
 Tailwind | 2                  |
+
+
+## Certificados
+
+### 🚀 Career Essentials in Generative AI by Microsoft and LinkedIn 🚀
+
+🗓 Data do término do curso<br>
+Fevereiro 13, 2024
+
+### 📜 Detalhes
+
+- ✅ Exame final aprovado
+- 🕓 Duração do curso: 4h 32m
+
+### 🛠 Habilidades desenvolvidas
+
+- 💡 Generative AI
+- 🤖 Artificial Intelligence (AI)
+- 🌐 Computer Ethics
+
+### 🔗 Certificate
+
+Veja o certificado aqui:
+https://www.linkedin.com/learning/certificates/231d9fb70cf97a8b65e00a8f0d2626ba9bd4fa735db56ba7408a8072a25879e5
+
+---------------------------------------------------------------------------------
+
+### 🚀 Career Essentials in GitHub Professional Certificate 🚀
+
+🗓 Data do término do curso<br>
+Fevereiro 06, 2024
+
+### 📜 Detalhes
+
+- ✅ Exame final aprovado
+- 🕓 Duração do curso: 4h 18m
+
+### 🛠 Habilidades desenvolvidas
+
+- 💡 GitHub
+
+### 🔗 Certificate
+
+Veja o certificado aqui:
+https://www.linkedin.com/learning/certificates/d6e90034caa34f171496d089686e6c4d922a49fd21bb2e8ab3366118c5e88e29
+
+
 
 ## 📫 Contato
 
