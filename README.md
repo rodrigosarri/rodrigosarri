@@ -80,7 +80,7 @@ Fevereiro 13, 2024
 - 🤖 Artificial Intelligence (AI)
 - 🌐 Computer Ethics
 
-### 🔗 Certificate
+### 🔗 Certificado
 
 Veja o certificado aqui:
 https://www.linkedin.com/learning/certificates/231d9fb70cf97a8b65e00a8f0d2626ba9bd4fa735db56ba7408a8072a25879e5
@@ -101,7 +101,7 @@ Fevereiro 06, 2024
 
 - 💡 GitHub
 
-### 🔗 Certificate
+### 🔗 Certificado
 
 Veja o certificado aqui:
 https://www.linkedin.com/learning/certificates/d6e90034caa34f171496d089686e6c4d922a49fd21bb2e8ab3366118c5e88e29
