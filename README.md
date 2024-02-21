@@ -5,6 +5,8 @@
 
 Sou desenvolvedor fullstack com experiência em tecnologias backend e frontend. Adoro criar aplicativos da web que sejam rápidos, responsivos e fáceis de usar.
 
+- Email: rodrigoasarri@gmail.com
+- LinkedIn: https://www.linkedin.com/in/rodrigosarri/
 
 ## 🛠️ Principais Habilidades técnicas
 
@@ -64,6 +66,26 @@ Tailwind | 2                  |
 
 ## Certificados
 
+### 🚀 Career Essentials in Software Development by Microsoft and LinkedIn 🚀
+
+🗓 Data do término do curso<br>
+Fevereiro 21, 2024
+
+### 📜 Detalhes
+
+- ✅ Exame final aprovado
+- 🕓 Duração do curso: 6h 13m
+
+### 🛠 Habilidades desenvolvidas
+
+- 👨‍💻 Programming
+- 💻 Software Development
+
+### 🔗 Certificado
+
+Veja o certificado aqui:
+https://www.linkedin.com/learning/certificates/940dd82d430905a02f4ac92e2c53d20b55d7af8c01b45ad0ba088936f08ee80c
+
 ### 🚀 Career Essentials in Generative AI by Microsoft and LinkedIn 🚀
 
 🗓 Data do término do curso<br>
@@ -105,13 +127,6 @@ Fevereiro 06, 2024
 
 Veja o certificado aqui:
 https://www.linkedin.com/learning/certificates/d6e90034caa34f171496d089686e6c4d922a49fd21bb2e8ab3366118c5e88e29
-
-
-
-## 📫 Contato
-
-- Email: rodrigoasarri@gmail.com
-- LinkedIn: https://www.linkedin.com/in/rodrigosarri/
 
 ## 🌟 Fato engraçado
 
