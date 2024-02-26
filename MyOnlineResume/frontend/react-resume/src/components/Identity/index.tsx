@@ -16,10 +16,10 @@ import { setThemeToDark, setThemeToLight, themeStore } from "src/redux/theme";
 import { IconButton } from "src/components";
 
 export const Identity: FC<IdentityProps> = ({ name, title }) => {
-  const [theme, setTheme] = useState(
+  const [theme, setTheme] = useState<ThemeState["currentTheme"]>(
     (() => {
       const storedTheme = localStorage.getItem("theme");
-      return storedTheme ? storedTheme : "dark";
+      return storedTheme ? (storedTheme as (ThemeState["currentTheme"])) : "dark";
     })
   );
 
