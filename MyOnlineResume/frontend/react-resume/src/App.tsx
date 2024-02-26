@@ -6,7 +6,9 @@ const App = () => {
   return (
     <>
       <GlobalStyle />
-      <div className="App">Teste</div>
+      <div className="App">
+
+      </div>
     </>
   );
 };
