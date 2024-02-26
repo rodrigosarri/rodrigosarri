@@ -5,6 +5,8 @@ import { ProfileContacts } from "src/components/Profile/interface";
 
 import { AboutWrapper } from "src/pages/About/styled";
 
+import photo from "src/assets/images/IMG_3562.jpeg";
+
 import {
   Profile,
   Identity,
@@ -52,7 +54,7 @@ export const About = () => {
   return (
     <>
       <Profile
-        photoUrl="/IMG_3562.jpeg"
+        photoUrl={photo}
         aboutMe="Eu sou um desenvolvedor Full Stack Sênior de forma balanciada entre Frontend e Backend com foco nos frameworks e linguagens de programação: React, Angular e Vue no FE e Laravel (PHP), Node e Python no BE"
         contacts={contactsData}
         skillsLoading={skillsLoading}
