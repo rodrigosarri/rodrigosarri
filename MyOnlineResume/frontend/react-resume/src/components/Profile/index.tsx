@@ -10,12 +10,15 @@ import {
 
 import {
   Photo,
+  Skills,
 } from "src/components";
 
 export const Profile: FC<ProfileProps> = ({
   photoUrl,
   aboutMe,
   contacts,
+  skillsLoading,
+  skills,
 }) => {
   return (
     <>
@@ -32,6 +35,7 @@ export const Profile: FC<ProfileProps> = ({
             ))}
           </ProfileContacts>
         )}
+        <Skills skills={skills} isLoading={skillsLoading} />
       </ProfileWrapper>
     </>
   );
