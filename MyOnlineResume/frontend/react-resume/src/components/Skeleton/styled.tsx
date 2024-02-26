@@ -1,5 +1,5 @@
 import styled, { keyframes } from "styled-components";
-import { SkeletonProps } from "./interface";
+import { SkeletonStyle } from "./interface";
 
 const load = keyframes`
   0% {
@@ -10,10 +10,10 @@ const load = keyframes`
   }
 `;
 
-export const SkeletonPulse = styled.div<SkeletonProps>`
+export const SkeletonPulse = styled.div<SkeletonStyle>`
   width: ${({ width }) => width || "100%"};
   height: ${({ height }) => height || "var(--size-md)"};
-  border-radius: ${({ borderRadius }) => borderRadius || "4px"};
+  border-radius: ${({ $borderRadius }) => $borderRadius || "4px"};
   background-size: 800px 104px;
   animation: ${load} ${({ duration }) => duration || "2s"} infinite linear forwards;
   background-image: ${({ theme }) =>

@@ -43,7 +43,7 @@ export const Identity: FC<IdentityProps> = ({ name, title }) => {
     <>
       <IdentityWrapper>
         <IdentityData>
-          <IdentityName id="about-me">{name}</IdentityName>
+          <IdentityName id="about-me" data-testid="about-me">{name}</IdentityName>
           <IdentityTitle>{title}</IdentityTitle>
         </IdentityData>
         <IdentityButtonWrapper>
