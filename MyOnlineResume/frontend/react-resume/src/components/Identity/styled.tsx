@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+export const IdentityButtonWrapper = styled.header`
+  display: flex;
+  flex-direction: row;
+`;
+
 export const IdentityData = styled.header`
   display: flex;
   flex-direction: column;
