@@ -11,4 +11,5 @@ export const PhotoWrapper = styled.div`
   border-bottom-left-radius: var(--size-md);
   overflow: hidden;
   min-height: 315px;
+  max-height: 315px;
 `;
