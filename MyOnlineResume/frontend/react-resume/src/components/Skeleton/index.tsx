@@ -33,7 +33,7 @@ export const Skeleton: FC<SkeletonProps> = ({
       duration={duration}
       width={width}
       height={height}
-      borderRadius={borderRadius}
+      $borderRadius={borderRadius}
       theme={theme}
     />
   );

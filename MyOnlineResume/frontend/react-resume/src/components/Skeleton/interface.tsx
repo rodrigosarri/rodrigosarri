@@ -9,3 +9,11 @@ export interface SkeletonProps {
   borderRadius?: string;
   theme?: ThemeState["currentTheme"];
 }
+
+export interface SkeletonStyle {
+  duration?: string;
+  width?: string;
+  height?: string;
+  $borderRadius?: string;
+  theme?: ThemeState["currentTheme"];
+}
