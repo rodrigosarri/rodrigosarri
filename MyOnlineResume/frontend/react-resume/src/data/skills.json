@@ -1,0 +1,54 @@
+[
+  {
+    "technology": "PHP (Laravel)",
+    "experience": 5
+  },
+  {
+    "technology": "Node.js",
+    "experience": 5
+  },
+  {
+    "technology": "Python",
+    "experience": 5
+  },
+  {
+    "technology": "Java",
+    "experience": 3
+  },
+  {
+    "technology": "React",
+    "experience": 5
+  },
+  {
+    "technology": "Angular",
+    "experience": 5
+  },
+  {
+    "technology": "Vue",
+    "experience": 5
+  },
+  {
+    "technology": "MySQL",
+    "experience": 5
+  },
+  {
+    "technology": "Postgresql",
+    "experience": 5
+  },
+  {
+    "technology": "SQL Server",
+    "experience": 3
+  },
+  {
+    "technology": "MongoDB",
+    "experience": 3
+  },
+  {
+    "technology": "Azure",
+    "experience": 3
+  },
+  {
+    "technology": "AWS",
+    "experience": 3
+  }
+]
