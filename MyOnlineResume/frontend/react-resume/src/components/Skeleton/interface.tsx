@@ -1,3 +1,5 @@
+import { ThemeState } from "src/redux/theme/interface";
+
 export interface SkeletonProps {
   id?: string;
   testId?: string;
@@ -5,4 +7,5 @@ export interface SkeletonProps {
   width?: string;
   height?: string;
   borderRadius?: string;
+  theme?: ThemeState["currentTheme"];
 }
