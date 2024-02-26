@@ -5,7 +5,7 @@ import { ProfileContacts } from "src/components/Profile/interface";
 
 import { AboutWrapper } from "src/pages/About/styled";
 
-import photo from "src/assets/images/IMG_3562.jpeg";
+import photo from "src/assets/images/rodrigo_sarri.jpeg";
 
 import {
   Profile,
