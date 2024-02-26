@@ -1,0 +1,34 @@
+[
+  {
+    "position": "Desenvolvedor Full Stack Sênior",
+    "company": "Locus Custom Software",
+    "startDate": "OUTUBRO 2022",
+    "endDate": "FEVEREIRO 2024",
+    "description": "<p><strong>Linx, Projeto Sponte</strong></p><p>Como Desenvolvedor Frontend, utilizei NEXT.js e Tailwind para criar componentes chave no projeto de Conta Digital Integrada, facilitando a gestão financeira dos usuários. Estabeleci padrões de TypeScript e design, fundamentais para a eficiência e expansão do projeto.</p>\n<p><strong>Linx, Projeto MercadApp</strong></p><p>\nLiderança técnica no desenvolvimento frontend de um projeto chave de transformação digital, utilizando React e TypeScript para criar uma solução robusta e eficiente.\nProjetista e implementador de componentes e microcomponentes em React, adotando a biblioteca Styled Component para estilização. Essa abordagem assegurou um alto nível de isolamento e reusabilidade dos componentes, permitindo sua fácil integração e escalabilidade em diversas partes da aplicação.\nResponsável pela integração frontend-backend, desenvolvendo serviços especializados para a conexão com o backend em Ruby on Rails. Esta estratégia resultou em uma arquitetura limpa e desacoplada, garantindo manutenção e expansão eficientes do sistema.</p>\n<p><strong>Linx, Projeto Menew e Raio-X</strong></p><p>\nComo desenvolvedor full-stack sênior, tive o privilégio de trabalhar em um projeto desafiador que envolveu a construção de um middleware utilizando o framework Laravel (PHP) e MySQL. O objetivo era criar uma conexão perfeita entre os adquirentes (máquinas de processamento de pagamentos) e outro sistema que consumisse esse recurso e o disponibilizasse ao cliente final.\nMeu papel neste projeto foi entender o escopo do projeto e transformar a entrada de dados de um arquivo txt tabulado em um endpoint que permitisse a recuperação apenas dos dados necessários.\nEste projeto exigiu um conhecimento profundo das complexidades do framework Laravel e a capacidade de trabalhar eficientemente com MySQL.\nPude aplicar minhas habilidades em design e desenvolvimento de software para garantir que o middleware fosse robusto, escalável e eficiente.</p>",
+    "technologies": ["Laravel", "Node.js", "Python", "HTML5", "CSS3", "JavaScript", "React", "TypeScript", "JSON", "MySQL", "SQL Server",  "PostgreSQL", "Azure", "REST", "Leadership", "Axios", "Jira", "Agile Methodologies", "Bitbucket"]
+  },
+  {
+    "position": "Analista de sistema Pleno II",
+    "company": "Accurate Software",
+    "startDate": "OUTUBRO 2019",
+    "endDate": "OUTUBRO 2022",
+    "description": "<p><strong>Claro, Equipe atendimento técnico</strong></p>\n<p>Projeto tem finalidade de guiar o consumidor final através de fluxos que irão oferecer ajuda para resolver problemas com sinal de televisão, internet ou telefone.<br>- Desenvolvimento de componentes e microcomponentes utilizando o framework Vue.js<br>- Trabalhando com microfrontends<br>- Desenvolvimento de testes unitários utilizando Jestjs com coberturas entre 80 e 100% dos componentes<br>- Integração com backend Node.js (participando no desenvolvimento de biblioteca e métodos) e Java<br>- Participação com sugestões e aprimoramentos no produto: Preciso de ajuda</p>\n<p><strong>Akiposso+ (akipossomais.org)</strong></p>\n<p>Projeto para interligar doação, pessoas “anjo” que irão realizar a entrega (da doação) e pessoas que receberão a doação utilizando integração com reconhecimento facial. Projeto tem funcionamento “offline” utilizando IndexedDB.<br>- Desenvolvimento de componentes e microcomponentes utilizando o framework React<br>- Integrando com backend em Java utilizando Axios</p>\n<p><strong>Cobasi (cobasi.com.br/servicos/agendamentos/bem-vindo/)</strong></p>\n<p>Projeto de agendamento de serviços integrando terceiros e consumidor final partindo da sugestão de localização (loja mais próxima) gerando fila de atendimento e avisando em tempo real quando será o atendimento<br>- Desenvolvimento de componentes e microcomponentes utilizando o framework React<br>- Integrando com backend em Node.js e banco de dados em MongoDB (participação no desenvolvimento de métodos e integração do banco de dados).</p>\n<p><strong>Rodobens Rio Preto</strong></p>\n<p>Projeto de análise de dados (Big Data) com foco em unir os dados espalhados em diversos banco de dados (SQL server) e gerar o melhor resultado para transformação e gravação no banco de dados Aurora (AWS)<br>- Desenvolvimento de classe (e métodos) em Python para utilização em serviço Lambda<br>- Transformação de dados utilizando o Penthaho</p>",
+    "technologies": ["Node.js", "Python", "Java", "HTML5", "CSS3", "JavaScript","React", "Angular", "Vue", "TypeScript", "Unit Testing", "JSON", "MySQL", "PostgreSQL", "AWS", "REST", "Axios", "IndexedDB", "Jira", "Agile Methodologies","Jenkins", "GitLab"]
+  },
+  {
+    "position": "Analista de sistema pleno",
+    "company": "Agência M4Web",
+    "startDate": "AGOSTO 2018",
+    "endDate": "OUTUBRO 2019",
+    "description": "<p>Desenvolvimento de websites e alterações em sistemas legados com foco em captação, nutrição e encaminhamento de leads.</p>",
+    "technologies": ["CakePHP", "HTML5", "CSS3", "Bootstrap", "JavaScript", "JSON", "MySQL", "Apache", "Nginx"]
+  },
+  {
+    "position": "Analista de sistema pleno",
+    "company": "Phoneline Telecom",
+    "startDate": "JANEIRO 2017",
+    "endDate": "JULHO 2018",
+    "description": "<p>Desenvolvimento de sistema com foco em callcenter</p><p>Desenvolvimento de ferramentas front-end</p><p>Desenvolvimento e melhorias em back-end com framework Phalcon</p>",
+    "technologies": ["PHP", "HTML5", "CSS3", "Bootstrap", "JavaScript", "JSON", "MySQL", "Apache", "Nginx"]
+  }
+]
