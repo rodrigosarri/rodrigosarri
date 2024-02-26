@@ -4,6 +4,7 @@ import { Skeleton } from "./Skeleton";
 import { Identity } from "./Identity";
 import { Main } from "./Main";
 import { Photo } from "./Profile/Photo";
+import { Skills } from "./Skills";
 
 export {
   Icon,
@@ -11,5 +12,6 @@ export {
   Skeleton,
   Identity,
   Main,
-  Photo
+  Photo,
+  Skills
 };
