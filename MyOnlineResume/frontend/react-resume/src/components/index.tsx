@@ -5,6 +5,8 @@ import { Identity } from "./Identity";
 import { Main } from "./Main";
 import { Photo } from "./Profile/Photo";
 import { Skills } from "./Skills";
+import { Experience } from "./Experience";
+import { Profile } from "./Profile";
 
 export {
   Icon,
@@ -13,5 +15,7 @@ export {
   Identity,
   Main,
   Photo,
-  Skills
+  Skills,
+  Experience,
+  Profile
 };
