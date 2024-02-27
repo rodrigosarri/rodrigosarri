@@ -1,0 +1,26 @@
+<div class="experience-wrapper" aria-labelledby="experience">
+  <h2 class="experience-title">Experiências profissionais</h2>
+  <ng-container *ngIf="!isLoading && jobs; else loading">
+    <div *ngFor="let job of jobs; let i = index" class="experience-item">
+      <h2 class="experience-position">{{ job.position }}</h2>
+      <h3 class="experience-company">
+        {{ job.company }},
+        <span class="experience-company-time">{{ job.startDate }} - {{ job.endDate || 'Present' }}</span>
+      </h3>
+      <div class="experience-description" [innerHTML]="job.description"></div>
+      <div *ngIf="job.technologies" class="experience-badge-wrapper">
+        <span *ngFor="let tech of job.technologies" class="experience-badge">{{ tech }}</span>
+      </div>
+    </div>
+  </ng-container>
+  <ng-template #loading>
+    <div class="experience-item">
+      <h2 class="experience-position"><app-skeleton [width]="'100%'" /></h2>
+      <h3 class="experience-company">
+        <app-skeleton [width]="'100%'" />
+        <span class="experience-company-time"><app-skeleton [width]="'80px'" /> - <app-skeleton [width]="'80px'" /></span>
+      </h3>
+      <div class="experience-description"><app-skeleton [width]="'100%'" [height]="'350px'" /></div>
+    </div>
+  </ng-template>
+</div>
