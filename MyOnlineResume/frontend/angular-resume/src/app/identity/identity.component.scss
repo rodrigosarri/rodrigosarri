@@ -1,0 +1,28 @@
+@import 'variables';
+
+.identity-wrapper {
+  display: flex;
+  margin-bottom: $size-sm;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.identity-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.identity-name {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.identity-title {
+  margin: 0;
+  color: $color-smokey-gray;
+}
+
+.identity-button-wrapper {
+  display: flex;
+  flex-direction: row;
+}

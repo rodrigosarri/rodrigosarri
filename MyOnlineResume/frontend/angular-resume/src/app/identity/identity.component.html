@@ -1,0 +1,10 @@
+<div class="identity-wrapper">
+  <div class="identity-data">
+    <h1 id="about-me" class="identity-name">{{ name }}</h1>
+    <h4 class="identity-title">{{ title }}</h4>
+  </div>
+  <div class="identity-button-wrapper">
+    <app-icon-button icon="dark_mode" [activated]="theme === 'dark'" (click)="handleToggleTheme('dark')">Dark Mode</app-icon-button>
+    <app-icon-button icon="light_mode" [activated]="theme === 'light'" (click)="handleToggleTheme('light')">Light Mode</app-icon-button>
+  </div>
+</div>
