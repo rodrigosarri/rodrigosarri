@@ -1,0 +1,10 @@
+<aside class="profile-wrapper">
+  <app-photo [src]="photoUrl"></app-photo>
+  <h2 class="profile-title-about">Sobre mim</h2>
+  <div class="profile-about">{{ aboutMe }}</div>
+  <div *ngIf="contacts" class="profile-contacts">
+    <p *ngFor="let contact of contacts; let i = index" class="profile-contact">
+      {{ contact.title }}: {{ contact.value }}
+    </p>
+  </div>
+</aside>
