@@ -1,0 +1,75 @@
+@import 'variables';
+
+.experience-badge {
+  background: $color-smokey-gray;
+  padding: $size-xs;
+  border-radius: $size-sm;
+  font-size: 0.85em;
+  box-sizing: border-box;
+  min-width: 56px;
+  text-align: center;
+}
+
+.experience-badge-wrapper {
+  display: flex;
+  gap: $size-xs;
+  flex-wrap: wrap;
+}
+
+.experience-company {
+  font-size: 1.2em;
+  font-weight: normal;
+  color: $color-smokey-gray;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  gap: $size-xs;
+}
+
+.experience-company-time {
+  font-size: 0.75em;
+  font-weight: normal;
+  display: flex;
+  gap: $size-xs;
+}
+
+.experience-description {
+  line-height: $size-md;
+  padding: $size-xs 0;
+  box-sizing: border-box;
+
+  > p {
+    margin-bottom: $size-xs;
+  }
+}
+
+.experience-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.experience-position, .experience-title {
+  font-size: 1.5em;
+  margin: 0;
+  width: 100%;
+  margin: $size-xs 0;
+  color: $color-sunny-yellow;
+}
+
+.experience-title {
+  color: $color-froggy-green;
+}
+
+.experience-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: $size-md;
+  box-sizing: border-box;
+  width: 100%;
+
+  @media (min-width: 1024px) {
+    padding-right: $size-md;
+  }
+}
