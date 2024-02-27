@@ -1,0 +1,40 @@
+@import 'variables';
+
+.profile-about {
+  grid-column: span 4;
+  text-align: justify;
+}
+
+.profile-contact {
+  margin: 0;
+}
+
+.profile-contacts {
+  grid-column: span 4;
+  display: flex;
+  flex-direction: column;
+  gap: $size-xs;
+  margin: $size-sm 0;
+}
+
+.profile-title-about {
+  color: $color-froggy-green;
+}
+
+.profile-wrapper {
+  flex: 0 0 100%;
+  max-width: 100%;
+  gap: $size-xs;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  > * {
+    display: flex;
+  }
+
+  @media (min-width: 1024px) {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+}
