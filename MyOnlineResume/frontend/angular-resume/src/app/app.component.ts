@@ -56,10 +56,10 @@ export class AppComponent implements OnInit {
 
   contacts: ProfileContacts[] = contactsJson as ProfileContacts[];
 
-  skillsLoading: boolean = true;
+  skillsLoading: boolean = false;
   skills: TechnologyExperience[] = skillsJson;
 
-  isLoadingJobs: boolean = true;
+  isLoadingJobs: boolean = false;
   jobs: Job[] = experiencesJson;
 
 }
