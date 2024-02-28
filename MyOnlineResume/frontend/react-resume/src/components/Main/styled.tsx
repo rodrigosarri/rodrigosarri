@@ -27,7 +27,7 @@ export const MainWrapper = styled.main<MainStyle>`
   align-items: center;
   flex-direction: column;
   padding: var(--size-xl);
-  background-color: ${({ mode }) => (mode === "light" ? "var(--color-snowy-white)" : "#1A2737")};
-  color: ${({ mode }) => (mode === "light" ? "#1A2737" : "var(--color-snowy-white)")};
+  background-color: ${({ mode }) => (mode === "light" ? "var(--color-snowy-white)" : "var(--color-midnight-sail)")};
+  color: ${({ mode }) => (mode === "light" ? "var(--color-midnight-sail)" : "var(--color-snowy-white)")};
   transition: background-color 0.3s ease, color 0.3s ease;
 `;
