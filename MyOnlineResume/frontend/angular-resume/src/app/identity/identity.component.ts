@@ -1,6 +1,8 @@
-import { Component, Input, afterNextRender } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 import { IconButtonComponent } from '@app/icon-button/icon-button.component';
+
+import { StorageService } from '@service/storage-service';
 
 @Component({
   selector: 'app-identity',
@@ -9,25 +11,24 @@ import { IconButtonComponent } from '@app/icon-button/icon-button.component';
   templateUrl: './identity.component.html',
   styleUrl: './identity.component.scss'
 })
-export class IdentityComponent {
+export class IdentityComponent implements OnInit {
   @Input() name: string = '';
   @Input() title: string = '';
 
   theme: 'dark' | 'light' = 'dark';
 
-  constructor() {
-    afterNextRender(() => {
-      this.initializeTheme();
-    });
+  constructor(private storageService: StorageService) {
+
   }
 
-  initializeTheme(): void {
-    const storedTheme = localStorage.getItem('theme');
-    this.theme = storedTheme as 'dark' | 'light' || 'dark';
+  ngOnInit(): void {
+    this.storageService.theme$.subscribe(theme => {
+      this.theme = theme;
+    });
   }
 
   handleToggleTheme(theme: 'dark' | 'light'): void {
     this.theme = theme;
-    localStorage.setItem('theme', theme);
+    this.storageService.setTheme(theme);
   }
 }
