@@ -14,5 +14,6 @@ export const GlobalStyle = createGlobalStyle`
     --color-sunny-yellow: #FC0;
     --color-smokey-gray: #B3B3B3;
     --color-midnight-gray: #4A4A4A;
+    --color-midnight-sail: #1A2737;
   }
 `;
