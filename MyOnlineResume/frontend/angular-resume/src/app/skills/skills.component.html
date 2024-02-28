@@ -1,0 +1,12 @@
+<h2 class="skill-title">Habilidades</h2>
+<ul *ngIf="!isLoading && skills" class="skill-list">
+  <li *ngFor="let skill of skills; let i = index" class="skill-item">
+    <h3 class="skill-title-tec">{{ skill.technology }}</h3>
+    <div class="skill-marbles">
+      <span *ngFor="let dot of [].constructor(maxDots); let j = index" [ngClass]="{'skill-dot': true, 'filled': j < skill.experience}"></span>
+    </div>
+  </li>
+</ul>
+<ng-container *ngIf="isLoading">
+  <app-skeleton></app-skeleton>
+</ng-container>

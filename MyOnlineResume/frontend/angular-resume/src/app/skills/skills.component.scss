@@ -1,0 +1,50 @@
+@import 'variables';
+
+.skill-dot {
+  display: inline-block;
+  width: $size-lg;
+  height: $size-lg;
+  border-radius: 50%;
+  &.filled {
+    background-color: $color-sky-high-blue;
+  }
+  &:not(.filled) {
+    background-color: #4A4A4A;
+  }
+}
+
+.skill-item {
+  margin: $size-xs 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: $size-sm;
+  border-bottom: solid 1px #4A4A4A;
+  padding-bottom: $size-sm;
+}
+
+.skill-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  @media (min-width: 1024px) {
+    width: 50%;
+  }
+}
+
+.skill-marbles {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.skill-title {
+  color: $color-froggy-green;
+}
+
+.skill-title-tec {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  margin: 0;
+}
