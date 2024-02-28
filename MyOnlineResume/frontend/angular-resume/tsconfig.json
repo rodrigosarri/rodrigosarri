@@ -5,7 +5,9 @@
     "baseUrl": "./",
     "paths": {
       "@app/*": ["src/app/*"],
+      "@data/*": ["src/data/*"],
     },
+    "resolveJsonModule": true,
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
