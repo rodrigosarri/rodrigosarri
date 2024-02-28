@@ -15,12 +15,12 @@
   </ng-container>
   <ng-template #loading>
     <div class="experience-item">
-      <h2 class="experience-position"><app-skeleton [width]="'100%'" /></h2>
+      <h2 class="experience-position"><app-skeleton [width]="'100%'" [theme]="theme" /></h2>
       <h3 class="experience-company">
-        <app-skeleton [width]="'100%'" />
-        <span class="experience-company-time"><app-skeleton [width]="'80px'" /> - <app-skeleton [width]="'80px'" /></span>
+        <app-skeleton [width]="'100%'" [theme]="theme" />
+        <span class="experience-company-time"><app-skeleton [width]="'80px'" [theme]="theme" /> - <app-skeleton [width]="'80px'"  [theme]="theme" /></span>
       </h3>
-      <div class="experience-description"><app-skeleton [width]="'100%'" [height]="'350px'" /></div>
+      <div class="experience-description"><app-skeleton [width]="'100%'" [height]="'350px'" [theme]="theme" /></div>
     </div>
   </ng-template>
 </div>

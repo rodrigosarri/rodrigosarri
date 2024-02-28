@@ -8,5 +8,14 @@
   </li>
 </ul>
 <ng-container *ngIf="isLoading">
-  <app-skeleton></app-skeleton>
+  <ul class="skill-list">
+    <li class="skill-item">
+      <h3 class="skill-title-tec">
+        <app-skeleton [theme]="theme"></app-skeleton>
+      </h3>
+      <div class="skill-marbles">
+        <app-skeleton [theme]="theme"></app-skeleton>
+      </div>
+    </li>
+  </ul>
 </ng-container>
