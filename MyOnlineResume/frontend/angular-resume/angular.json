@@ -104,6 +104,11 @@
               "src/styles.scss",
               "src/styles/_variables.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/styles"
+              ]
+            },
             "scripts": []
           }
         },
