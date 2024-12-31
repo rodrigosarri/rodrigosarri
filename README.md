@@ -13,7 +13,7 @@ Sou desenvolvedor fullstack com experiência em tecnologias backend e frontend. 
 - Backend: Java (Spring Boot), PHP (Laravel), Node.js, Python
 - Frontend: React, Angular, Vue.js
 - Web: HTML, CSS, JavaScript
-- Database: ORacle, MySql, Postgresql, SqlServer, MongoDB
+- Database: Oracle, MySql, Postgresql, SqlServer, MongoDB
 - Cloud: AWS, Azure, GCP
 - Tools: Github, VS Code, Postman, Jira, etc.
 
