@@ -28,8 +28,6 @@ PHP   | 15                 |
 Node.js | 5                  |
 Python | 3                   |
 
-Acima, eu tentei desembrulhar um pouco da minha jornada pelas diversas linguagens de programação. Mas medir minha experiência em anos seria como tentar contar estrelas no céu 🌌, talvez seja possível, mas baita trabalho em? Até porque eu passei muita coisas em projetos diferentes com essas linguagens de programação.
-
 #### FRAMEWORKS BACKEND
 
 Framework | Anos de experiência |
