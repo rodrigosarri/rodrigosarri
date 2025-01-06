@@ -35,7 +35,7 @@ Framework | Anos de experiência |
 Spring Boot | 3
 Laravel PHP Framework | 6                  |
 Express Node.js web application framework  | 4                  |
-Django: The web framework for perfectionists | 2                  |
+Django REST framework | 2                  |
 
 ### FRONTEND
 
